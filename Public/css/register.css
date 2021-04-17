@@ -1,0 +1,39 @@
+.registerbox{
+    text-align: center;
+    width: 400px;
+    position: absolute;
+    left: 62%;
+    top: 5%;
+    padding: 50px;
+}
+
+.leaves{
+    position:absolute;
+    top: -50%;
+    box-shadow: 10px 5px 7px grey;
+
+}
+
+.title{
+    color: #376D4B;
+    font-family: 'Dancing Script', cursive;
+}
+
+.button{
+    color: #81CE9D;
+    border-radius: 25px;
+    background-color: #376D4B;
+    text-decoration: none;
+    border: none;
+
+}
+
+
+.registerbox label{
+    color: #376D4B;
+}
+
+.link {
+    text-decoration: none;
+    color: #81CE9D;
+}

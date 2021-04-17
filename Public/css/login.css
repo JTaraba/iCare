@@ -1,0 +1,50 @@
+.loginbox{
+    text-align: center;
+    width: 400px;
+    position: absolute;
+    top: 30%;
+    left: 63%;
+    padding: 50px;
+}
+
+.title{
+    color: #376D4B;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.loginbox label{
+    color: #376D4B;
+}
+
+.button{
+    color: #81CE9D;
+    border-radius: 25px;
+    background-color: #376D4B;
+    text-decoration: none;
+    border: none;
+
+}
+
+.button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.form-control{
+    width: 100px;
+    border: 10px;
+}
+
+
+.leaves{
+    position:absolute;
+    top: -50%;
+    box-shadow: 10px 5px 7px grey;
+
+}
+
+@media (max-width: 599px){}
+@media (max-width: 600px){}
+@media (max-width: 900px){}
+@media (max-width: 1200px){}
+@media (max-width: 1800px){}

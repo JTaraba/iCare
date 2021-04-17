@@ -1,0 +1,65 @@
+
+.navbar{
+    background-color: #376D4B;
+}
+
+.navbar .header{
+    color: #81CE9D;
+    font-size: 32px;
+    margin: auto;
+
+}
+
+.questions {
+    text-align:center;
+    padding: 50px;
+}
+
+.questions h3{
+    font-size: 24px;
+    color: #376D4B
+}
+
+.questions form {
+    margin: auto;
+    text-align: center
+}
+
+.questions p{
+    color: #376D4B;
+    padding: 12px;
+    margin: 20px;
+}
+
+.radio-inline{
+    color: #376D4B;
+    padding: 10px;
+    
+}
+
+input[type = radio] {
+    cursor: pointer
+}
+
+.submit {
+    background-color: #376D4B;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #81CE9D;
+    cursor: pointer;
+    border: none;
+    margin: 50px;
+    padding: 8px 16px;
+}
+
+.submit:hover{
+    opacity: 0.8;
+}
+
+@media (max-width: 599px){}
+@media (max-width: 600px){}
+@media (max-width: 900px){}
+@media (max-width: 1200px){}
+@media (max-width: 1800px){}
+
+

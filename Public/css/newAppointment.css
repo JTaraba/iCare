@@ -1,0 +1,32 @@
+.title {
+    margin: 50px;
+    color: #376D4B;
+}
+
+.newAppForm {
+    margin: auto;
+}
+
+label {
+    text-align: center;
+    color: #376D4B;
+
+}
+
+.form-group {
+    padding: 10px;
+}
+
+button{
+    position: absolute;
+    background-color: #376D4B !important;
+    border: none !important;
+    color: #81CE9D !important;
+    right: 47%;
+}
+
+button:hover{
+    opacity: 80%;
+}
+
+

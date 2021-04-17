@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Visitor</title>
+    <link rel = "stylesheet" href = "/css/visitation.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <body scroll = "no" style = "overflow: hidden">
+        
+</head>
+
+<body>
+    #extend("base"):
+    #export("content"):
+    <!-- Start: Single Page Contact Us Form -->
+    <div style="opacity: 1;background: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class = "title">Visiting?</h1>
+                    
+                    #if(error):
+                        <div class="alert alert-danger" role="alert">
+                            Error. The patient you entered does not exist.
+                        </div>
+                    #endif
+                    
+                    <form class = "visitorForm" method = "post">
+                        <div class="form-group">
+                            <input type="text" name = "firstName" id = "firstName" required="" placeholder="First Name">
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" name = "lastName" id = "lastName" placeholder="Last Name" required ="">
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" name = "username" id = "username" placeholder="Patient Username" required="">
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type = "text" name="message" id="message" placeholder="Message" required="">
+                        </div>
+                        
+                        <div class="form-group">
+                            <button class="btn btn-info" type="submit" style="background: #376d4b;">Submit</button>
+                        </div>
+                    </form>
+                </div><!-- Start: con -->
+                <div class="pic">
+                    <img src="/images/Screen%20Shot%202021-04-07%20at%2011.55.32%20AM.png?h=e70a2b28437db5a9ada000fbaccfec18" />
+                </div><!-- End: con -->
+            </div>
+        </div>
+    </div><!-- End: Single Page Contact Us Form -->
+    #endexport
+    #endextend
+</body>
+
+</html>
+

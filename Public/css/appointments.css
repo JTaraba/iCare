@@ -1,0 +1,35 @@
+/*#81CE9D : light green*/
+/*#376D4B : dark green*/
+
+.header {
+    color: #376D4B;
+
+}
+
+.card {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.titleNbutton {
+    margin: 50px;
+    
+}
+
+button{
+    background-color: #376D4B !important;
+    border: none !important;
+    color: #81CE9D !important;
+    margin-left: 20px !important;
+}
+
+button:hover {
+    opacity: 90%;
+}
+
+.create {
+    text-decoration: none;
+    color: #81CE9D;
+}
+
+

@@ -1,0 +1,49 @@
+.timeContainer{
+    margin: auto;
+    margin-top: 100px;
+    background-color: #81CE9D;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+    height: 300px;
+    width: 100%
+    border-radius: 15px;
+    padding-top: 30px;
+
+}
+
+.title {
+    color:#376D4B;
+    text-align: center;
+}
+
+
+
+.card-body {
+    margin: 10px;
+    text-align: center
+}
+
+.cards {
+    position: absolute;
+    display: flex;
+    margin: 25px;
+    left: 19%;
+}
+
+.card {
+    margin: 5px;
+}
+
+
+img {
+    height: 200px;
+}
+
+.vines2 {
+    transform: rotate(-90deg);
+    position: absolute;
+    left:86.25%;
+    top: 25%;
+}
+

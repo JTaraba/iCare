@@ -1,0 +1,30 @@
+<link rel = "stylesheet" href = "/css/appointments.css">
+<title>#(title)</title>
+<body scroll = "no" style = "overflow: hidden">
+    #extend("index"):
+        #export("content"):
+            <div class = "titleNbutton">
+                <h1 class = "header"> #(user.firstName) #(title) <button type="submit" class="btn btn-primary"><a class = "create" href = "/appointments/new">+</a></button></h1>
+            </div>
+            #if(appointments):
+                #for(appointment in appointments):
+                    <div class="card" style="width: 18rem;">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href = "/appointments/#(appointment.id)">#(appointment.name)</a></h5>
+                        <h6 class="card-subtitle mb-2 text-muted">#(appointment.date)</h6>
+                        <p class="card-text">#(appointment.description)</p>
+                      </div>
+                    </div>
+                    <!--<p><a href = "/appointments/#(appointment.id)">#(appointment.name) #(appointment.dateString)</a></p>-->
+                    
+                #endfor
+            #else:
+                <h2>No scheduled appointments</h2>
+            #endif
+         #endexport
+   #endextend
+   
+   
+</body>
+</html>
+

@@ -1,0 +1,25 @@
+.navbar{
+    background-color: #376D4B;
+}
+
+.navbar-nav li{
+    padding-right: 30px;
+    margin-right: 20px;
+}
+
+.navbar-nav li:hover{
+    opacity: 75%;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #81CE9D;
+}
+
+.navbar-brand {
+    color: #81CE9D;
+    font-size: 28px;
+    margin-left: 100px;
+}
+
+

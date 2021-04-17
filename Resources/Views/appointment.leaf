@@ -1,0 +1,25 @@
+<link rel = "stylesheet" href = "/css/appointment.css">
+<title>#(title)</title>
+<body scroll = "no" style = "overflow: hidden">
+    #extend("index"):
+        #export("content"):
+        <div class = "info">
+            <h1 class = "name">#(appointment.name) </h1>
+            <h2 class = "description">#(appointment.description)</h2>
+            <h3 class = "date">#(date)</h3>
+            <p> With #if(user.role == "employee"): Dr. #else: Patient #endif #(user.firstName) #(user.lastName)</p>
+            <form method="post">
+                <button type="submit" class="btn btn-danger">
+                  Delete
+                </button>
+                </form>
+        </div>
+            
+            
+        #endexport
+   #endextend
+   
+</body>
+</html>
+
+

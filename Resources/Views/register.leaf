@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+</head>
+<link rel = "stylesheet" href = "/css/register.css"/>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<body scroll = "no" style = "overflow: hidden">
+#extend("base"):
+    #export("content"):
+    <div class = "registerbox">
+    <h1 class = "title">#(title)</h1>
+    
+    #if(registrationError):
+     <div class="alert alert-danger" role="alert">
+       #(message)
+     </div>
+   #endif
+    
+    
+    <form method = "post">
+        <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" class="form-control" id="firstName"/>
+        </div>
+        
+        <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" class="form-control" id="lastName"/>
+        </div>
+        
+        <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" name="username" class="form-control" id="username"/>
+        </div>
+        
+        <div class = "form-group">
+            <label for = "role">Role</label>
+            <select name = "role" class = "form-control" id = "role">
+                <option value = "employee" type="text">
+                    employee
+                </option>
+                <option value = "patient" type="text">
+                    patient
+                </option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" name = "password" class="form-control" id = "password"/>
+        </div>
+        
+        <div class="form-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" name="confirmPassword" class="form-control" id="confirmPassword"/>
+        </div>
+        
+        <button  class = "button" type="submit">
+                Register
+        </button>
+    </form>
+    </div>
+    
+    #endexport
+#endextend
+
+<div class = "leaves">
+    <img src = "/images/small-leaves.png">
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+.name {
+    color: #376D4B;
+}
+
+.description {
+    color: #376D4B;
+}
+
+.date {
+    color: #376D4B;
+}
+
+p {
+    color: #376D4B;
+}
+
+.info {
+    margin: 100px;
+    text-align: center;
+}
+
+button {
+    color:#9c2a1e;
+    background-color: #fa4834;
+}
+
+button:hover {
+    opacity: 80%;
+}

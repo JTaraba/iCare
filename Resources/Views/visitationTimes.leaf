@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel = "stylesheet" href = "/css/visitationTimes.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <body scroll = "no" style = "overflow: hidden">
+        <title>Visitation Times</title>
+        
+</head>
+
+<body scroll = "no" style = "overflow: hidden">
+    #extend("base"):
+    #export("content"):
+    <div class = "timeContainer">
+        <h1 class = "title"> Visitation Times for #(user.firstName) #(user.lastName) (#(user.username))</h1>
+            <div class = "cards">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Mondays</h5>
+                <h6 class="card-subtitle mb-2 text-muted">9:00 - 16:00</h6>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Tuesdays</h5>
+                <h6 class="card-subtitle mb-2 text-muted">10:00 - 13:00</h6>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Wednesdays</h5>
+                <h6 class="card-subtitle mb-2 text-muted">12:00 - 18:00</h6>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Thursdays</h5>
+                <h6 class="card-subtitle mb-2 text-muted">9:00 - 16:00</h6>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Fridays</h5>
+                <h6 class="card-subtitle mb-2 text-muted">11:00 - 17:00</h6>
+              </div>
+            </div>
+            </div>
+    </div>
+    <div class = "vines1">
+        <img src = "/images/vine.jpg"/>
+    </div>
+    
+    #endexport
+    #endextend
+</body>
+
+</html>
+

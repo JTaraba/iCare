@@ -1,0 +1,62 @@
+.navbar{
+    background-color: #9c2a1e;
+}
+
+.navbar .header{
+    color: #fa4834;
+    font-size: 32px;
+    margin: auto;
+}
+
+.info {
+    background-color: #fa4834;
+    width: 750px;
+    border-radius:30px;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    transform: translateY(50%);
+}
+
+.infoWords {
+    text-align: center;
+    font-size: 28px;
+    color: #9c2a1e;
+}
+.sbtn {
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    margin:auto
+    font-size: 15px;
+    transform: translateY(75%);
+}
+
+.sbtn input {
+    background-color: #9c2a1e;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #fa4834;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+}
+
+.sbtn input:hover{
+    opacity: 0.8;
+}
+
+.radio-inline {
+    color: #9c2a1e;
+    font-size: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 599px){}
+@media (max-width: 600px){}
+@media (max-width: 900px){}
+@media (max-width: 1200px){}
+@media (max-width: 1800px){}
+
+
+

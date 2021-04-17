@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+      <link rel = "stylesheet" href = "/css/screenFail.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+
+<div class = "navbar">
+    <nav class="header">
+        Advisory
+    </nav>
+</div>
+
+<body scroll = "no" style = "overflow: hidden">
+    <div class = "info">
+        <p class = "infoWords">
+            Please stay home!<br>
+            If you arrive at the Hospital you will be asked to go home.<br>
+            Please self-isolate for the required 14 days since exposure and maintain social distancing practices.
+        </p>
+    </div>
+    <div class = "sbtn">
+        <form method="post">
+            <label class = "radio-inline" for = "understand">
+                I understand    
+            <input type = "radio" name = "understand"  id = "understand" value="true"/>
+            </label>
+            
+            <input type = "submit" value = "->"/>
+            
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+</head>
+<link rel = "stylesheet" href = "/css/login.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<body scroll = "no" style = "overflow: hidden">
+    #extend("base"):
+        #export("content"):
+        <div class = "loginbox">
+        <h1 class = "title">login</h1>
+        #if(loginError):
+             <div class="alert alert-danger" role="alert">
+               User authentication error. Either your username or
+               password was invalid.
+             </div>
+           #endif
+       <!-- 4 -->
+           <form method="post">
+             <!-- 5 -->
+             <div class="form-group">
+               <input type="text" name="username" class="form-control" id="username" placeholder = "username"/>
+             </div>
+       <!-- 6 -->
+             <div class="form-group">
+               <input type="password" name="password" class="form-control" id="password" placeholder = "password"/>
+             </div>
+       <!-- 7 -->
+             <button class = "button" type="submit">
+               login
+             </button>
+           </form>
+           </div>
+        
+         #endexport
+   #endextend
+   
+   <div class = "leaves">
+       <img src = "/images/small-leaves.png">
+   </div>
+   
+   
+</body>
+</html>
+
+
